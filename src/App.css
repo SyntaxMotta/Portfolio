@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #0f2862;
+  --secondary-color: #9e363a;
+  --tertiary-color: #091f36;
+  --quaternary-color: #4f5f76;
+}
+
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app {
+  background-image: url('./images/japan.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app > .row {
+  width: 90%;
+}
+
+.app > .row .col {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.section-heading {
+  font-size: 2.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 0.3rem;
+  text-align: center;
+  color: white;
+}
+
+.page-title {
+  position: absolute;
+  font-size: 2.4rem;
+  color: white;
+  text-transform: uppercase;
+  top: 0;
+  left: 5px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    var(--primary-color)
+  );
+  width: 100%;
+  margin: 0;
+
+  padding: 0.3rem;
+}
+
+.flow-text {
+  color: white;
+}
+
+.card-panel {
+  position: relative;
+  background-color: rgba(6, 2, 19, 0.87);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 350;
+  padding: 1rem 0;
+  height: 875px;
+  overflow-y: scroll;
+}
+
+.card-panel::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-large {
+  border-radius: 5px;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: white;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* simple - enter transition 300ms, exit 150ms */
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}

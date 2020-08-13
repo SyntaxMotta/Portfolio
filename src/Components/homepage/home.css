@@ -1,0 +1,9 @@
+.home__workBtn {
+  background-color: var(--quaternary-color);
+  transition: all ease 0.4s;
+}
+
+.home__workBtn:hover {
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+}

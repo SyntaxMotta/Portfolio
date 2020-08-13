@@ -1,0 +1,48 @@
+.input-field label {
+  color: white;
+}
+
+/* label focus color */
+.input-field input[type='text']:focus + label {
+  color: var(--quaternary-color) !important;
+}
+/* label underline focus color */
+.input-field input[type='text']:focus {
+  border-bottom: 1px solid var(--quaternary-color) !important;
+  box-shadow: 0 1px 0 0 var(--quaternary-color) !important;
+}
+
+.input-field input[type='email']:focus + label {
+  color: var(--quaternary-color) !important;
+}
+/* label underline focus color */
+.input-field input[type='email']:focus {
+  border-bottom: 1px solid var(--quaternary-color) !important;
+  box-shadow: 0 1px 0 0 var(--quaternary-color) !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: var(--quaternary-color) !important;
+}
+
+input[type='radio']:checked + label:after {
+  background-color: #ff9800 !important;
+  border-color: #ff9800 !important;
+}
+
+p label span {
+  font-size: 2rem;
+}
+
+form {
+  padding: 1rem;
+}
+
+.contact__content .row {
+  margin: 2.5rem auto;
+}
+
+.contact__content {
+  width: 97%;
+  margin: 0;
+}

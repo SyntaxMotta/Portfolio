@@ -1,0 +1,63 @@
+.about__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+  padding: 0.4rem 0;
+}
+
+.about__block .about__image {
+  flex: 1;
+  width: 200px;
+  height: 90%;
+  object-fit: contain;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.about__block > div {
+  flex: 1;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.about__content {
+  margin-top: 5rem;
+  padding: 0.5rem 0;
+  height: 100%;
+}
+
+.about__positions {
+  margin: 1rem 0;
+}
+
+.about__techSkills {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about__techSkills > h3 {
+  font-size: 1.3rem;
+  text-align: left;
+  margin-left: 1.5rem;
+}
+
+.progress {
+  overflow: hidden;
+  height: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 0.3rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.progress > div {
+  height: 100%;
+  color: white;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
