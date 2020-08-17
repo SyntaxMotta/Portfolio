@@ -4,7 +4,7 @@ import './contact.css';
 export const Contact = () => {
   return (
     <div className="card-panel">
-      <div className="page-title">Contact Me</div>
+      <h1 className="page-title">Contact Me</h1>
       <div class="contact__content">
         <h2 className="section-heading">
           Please fill in your information. I will respond promptly
