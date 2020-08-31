@@ -5,7 +5,7 @@ import sales from '../../images/sales.jpg';
 
 export const About = () => {
   return (
-    <div className="card-panel">
+    <div className="About">
       <h1 className="page-title">About</h1>
 
       <div className="about__content">
@@ -21,11 +21,15 @@ export const About = () => {
                 I learned about A11y guidelines and best practices.
               </p>
             </div>
-            <img src={sales} alt="" className="about__image" />
+            <img src={sales} alt="Sales gong" className="about__image" />
           </div>
 
           <div className="about__block">
-            <img src={code} alt="" className="about__image" />
+            <img
+              src={code}
+              alt="Sitting at computer"
+              className="about__image"
+            />
             <div>
               <h1 className="section-heading">Front End Development</h1>
               <div className="bottom-line"></div>

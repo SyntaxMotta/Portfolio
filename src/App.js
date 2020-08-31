@@ -17,11 +17,11 @@ const App = () => {
   return (
     <Router>
       <div className="app">
-        <div className="row">
-          <div className="col s4">
+        <div className="grid">
+          <div className="app__nav card-panel">
             <Navbar />
           </div>
-          <div className="col s8">
+          <div className="app__content card-panel">
             <Route
               render={({ location }) => (
                 <TransitionGroup>

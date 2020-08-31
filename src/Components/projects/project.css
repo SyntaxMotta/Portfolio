@@ -1,0 +1,34 @@
+.Projects {
+  margin-top: 3rem;
+}
+
+.project__content {
+  display: grid;
+  grid-template-areas:
+    'img1 img2'
+    'img3 img3';
+  grid-gap: 0.2rem;
+  padding: 0.3rem;
+}
+
+.project__block {
+  padding: 0.3rem;
+  display: inline-block;
+  margin: 0.7rem auto;
+  width: 100%;
+}
+
+.project__img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+@media (max-width: 665px) {
+  .project__content {
+    grid-template-areas:
+      'img1 img1'
+      'img2 img2'
+      'img3 img3';
+  }
+}
