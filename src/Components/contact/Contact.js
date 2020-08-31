@@ -45,16 +45,9 @@ export const Contact = () => {
             <div className="row">
               <div className="input-field col s12">
                 <textarea
-                  id="textarea1"
-                  className="materialize-textarea"
+                  className="contact__textarea"
+                  placeholder="Project or Job Opportunity"
                 ></textarea>
-                <label
-                  for="textarea1"
-                  className="prefix"
-                  style={{ fontSize: '1rem' }}
-                >
-                  Project or Job Opportunity
-                </label>
               </div>
             </div>
           </form>

@@ -15,10 +15,11 @@ export const Projects = () => {
             <a href="google.com" className="section-heading">
               Anime Site
             </a>
+            <div className="bottom-line"></div>
             <a href="https://github.com/SyntaxMotta/AnimeSearch.git">
               Repo <i class="fab fa-github"></i>
             </a>
-            <p>
+            <p className="flow-text">
               React application reaching out to the Jikan anime API and
               displaying the data
             </p>
@@ -28,10 +29,11 @@ export const Projects = () => {
             <a href="google.com" className="section-heading">
               IT Logger
             </a>
+            <div className="bottom-line"></div>
             <a href="https://github.com/SyntaxMotta/IT-Logger-Final.git">
               Repo <i class="fab fa-github"></i>
             </a>
-            <p>
+            <p className="flow-text">
               Full MERN Stack Logger application for IT departments to document
               tasks
             </p>
@@ -41,10 +43,11 @@ export const Projects = () => {
             <a href="google.com" className="section-heading">
               Netflix UI Clone
             </a>
+            <div className="bottom-line"></div>
             <a href="https://github.com/SyntaxMotta/NetflixClone.git">
               Repo <i class="fab fa-github"></i>
             </a>
-            <p>Netflix UI Clone Application</p>
+            <p className="flow-text">Netflix UI Clone Application</p>
           </div>
         </div>
       </div>
