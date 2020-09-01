@@ -32,7 +32,7 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  /* grid-template-areas: 'nav content content'; */
+  grid-gap: 0;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
@@ -41,16 +41,7 @@
 }
 
 .app__nav {
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  /* grid-area: nav; */
-  /* position: absolute;
-  top: 20px;
-  bottom: 0;
-  left: 0;
-  left: 20px; */
+  margin: 0;
   background-color: rgba(6, 2, 19, 0.87);
   color: white;
   display: flex;
@@ -65,26 +56,12 @@
 
 .app__content {
   flex: 1;
-  /* grid-area: content; */
-  /* position: absolute;
-  left: 35%;
-  right: 0;
-  top: 20px;
-  bottom: 0; */
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   position: relative;
   background-color: rgba(6, 2, 19, 0.87);
   color: white;
   display: inline-block;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  /* max-width: 800px; */
-  width: 90%;
+  width: 95%;
   padding: 1rem 0;
   height: 875px;
   overflow-y: scroll;
@@ -128,21 +105,6 @@
   color: white;
   line-height: 1.8rem;
 }
-
-/* .card-panel {
-  position: absolute;
-  background-color: rgba(6, 2, 19, 0.87);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-  min-width: 350px;
-  padding: 1rem 0;
-  height: 875px;
-  overflow-y: scroll;
-} */
 
 .card-panel::-webkit-scrollbar {
   display: none;

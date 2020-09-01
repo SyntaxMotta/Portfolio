@@ -66,6 +66,11 @@ export const Contact = () => {
                 ></textarea>
               </div>
             </div>
+            <input
+              type="submit"
+              className=" waves-effect waves-light  hoverable contact__submit"
+              value="Submit"
+            />
           </form>
         </div>
       </div>
