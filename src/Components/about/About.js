@@ -73,20 +73,6 @@ export const About = () => {
           <div className="bottom-line"></div>
           <div className="about__resumeBlock">
             <h2 className="section-heading">
-              MemoryBlue/User1st, Tysons Virginia
-            </h2>
-
-            <p className="sub-heading">Business Development Representative</p>
-            <p>(March 2019 - Present)</p>
-            <ul>
-              <li>Prospect for high quality leads using Salesforce CRM</li>
-              <li>Create high revenue generating opportunities</li>
-              <li>Fill sales pipeline</li>
-              <li>Training and mentorship</li>
-            </ul>
-          </div>
-          <div className="about__resumeBlock">
-            <h2 className="section-heading">
               Motta&Motta Real Estate, Glen Burnie, MD
             </h2>
 
@@ -109,15 +95,36 @@ export const About = () => {
           </div>
           <div className="about__resumeBlock">
             <h2 className="section-heading">
-              Hudson Coastal Raw Bar and Grill, Fulton MD
+              MemoryBlue/User1st, Tysons Virginia
             </h2>
 
-            <p className="sub-heading">Server/Bartender</p>
-            <p>(2016 - 2018)</p>
+            <p className="sub-heading">Business Development Representative</p>
+            <p>(March 2019 - May 2020)</p>
             <ul>
-              <li>Serve guests food and beverages</li>
-              <li>Expedite food</li>
+              <li>Prospect for high quality leads using Salesforce CRM</li>
+              <li>Create high revenue generating opportunities</li>
+              <li>Fill sales pipeline</li>
               <li>Training and mentorship</li>
+            </ul>
+          </div>
+
+          <div className="about__resumeBlock">
+            <h2 className="section-heading">
+              Verizon Cellular Sales, Baltimore, MD
+            </h2>
+
+            <p className="sub-heading">Sales Representative</p>
+            <p>(2018 - 2019)</p>
+            <ul>
+              <li>
+                Selling products and services using solid arguments to customers
+              </li>
+              <li>Meeting and exceeding sales quotas</li>
+              <li>Maintaining positive relationships with B2B clients</li>
+              <li>
+                Performing cost-benefit analyses of existing and potential
+                customers
+              </li>
             </ul>
           </div>
           <div className="about__resumeBlock">
