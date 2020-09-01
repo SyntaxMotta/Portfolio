@@ -16,9 +16,9 @@ export const About = () => {
               <div className="bottom-line"></div>
               <p className="flow-text">
                 I have 2 years of business development experience with various
-                high tech companies with different capabilities. I primarily
-                worked for a website accessibility company called User1st where
-                I learned about A11y guidelines and best practices.
+                high tech companies with different capabilities. My primary
+                client was a Website Accessibility company based in DC named
+                User1st.
               </p>
             </div>
             <img src={sales} alt="Sales gong" className="about__image" />
@@ -34,9 +34,10 @@ export const About = () => {
               <h1 className="section-heading">Front End Development</h1>
               <div className="bottom-line"></div>
               <p className="flow-text">
-                I am a self taught front end web developer learning new things
-                every day. I have used various resources including Udemy,
-                FreeCodeCamp, and mentors to learn the trade.
+                Even before working in tech sales I learned about web
+                development fundementals in college. building a network of Front
+                End/UI developers at User1st peaked my interest in turning my
+                hobby into a career.
               </p>
             </div>
           </div>
