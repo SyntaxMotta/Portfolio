@@ -26,6 +26,10 @@
   margin: 0.3rem 0;
 }
 
+.project__block > .flow-text {
+  font-size: 1.3rem;
+}
+
 .project__block a {
   transition: all ease 0.4s;
 }
@@ -37,7 +41,8 @@
 
 .project__img {
   width: 100%;
-  height: 200px;
+  height: 225px;
+  border-radius: 8px;
   object-fit: contain;
 }
 
