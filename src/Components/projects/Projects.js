@@ -16,7 +16,7 @@ export const Projects = () => {
               href="https://infallible-blackwell-d60542.netlify.app/"
               className="section-heading"
             >
-              Anime Site
+              Anime DB
             </a>
             <div className="bottom-line"></div>
             <a href="https://github.com/SyntaxMotta/AnimeSearch.git">

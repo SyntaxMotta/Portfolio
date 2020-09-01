@@ -30,6 +30,7 @@
   display: block;
   transition: all ease 0.4s;
   margin: 0.2rem auto;
+  border-radius: 8px;
 }
 
 .contact__submit:hover {
