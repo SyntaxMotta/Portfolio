@@ -8,23 +8,38 @@ export const Contact = () => {
         <h1 className="page-title">Contact Me</h1>
         <div className="contact__content">
           <h2 className="section-heading">Please fill in your information</h2>
-          <form className="col s12">
+          <form
+            method="POST"
+            data-netlify="true"
+            name="contact"
+            className="col s12"
+          >
             <div className="row">
               <div className="input-field col s12">
                 <i className="material-icons prefix">account_circle</i>
-                <input id="name" type="text" className="validate" />
+                <input id="name" type="text" name="name" className="validate" />
                 <label for="name">Name</label>
               </div>
             </div>
             <div className="row">
               <div className="input-field col s6">
                 <i className="material-icons prefix">email</i>
-                <input id="email" type="email" className="validate" />
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  className="validate"
+                />
                 <label for="email">Email</label>
               </div>
               <div className="input-field col s6">
                 <i className="material-icons prefix">phone</i>
-                <input id="icon_telephone" type="text" className="validate" />
+                <input
+                  id="icon_telephone"
+                  type="text"
+                  name="phone"
+                  className="validate"
+                />
                 <label for="icon_telephone">Telephone</label>
               </div>
             </div>
@@ -47,6 +62,7 @@ export const Contact = () => {
                 <textarea
                   className="contact__textarea"
                   placeholder="Project or Job Opportunity"
+                  name="project"
                 ></textarea>
               </div>
             </div>
