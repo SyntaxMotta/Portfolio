@@ -12,7 +12,10 @@ export const Projects = () => {
         <div className="project__content center-align">
           <div className="project__block" style={{ gridArea: 'img1' }}>
             <img src={anime} alt="Anime Site" className="project__img" />
-            <a href="google.com" className="section-heading">
+            <a
+              href="https://infallible-blackwell-d60542.netlify.app/"
+              className="section-heading"
+            >
               Anime Site
             </a>
             <div className="bottom-line"></div>
@@ -26,7 +29,10 @@ export const Projects = () => {
           </div>
           <div className="project__block " style={{ gridArea: 'img2' }}>
             <img src={logger} alt="IT Logger" className="project__img" />
-            <a href="google.com" className="section-heading">
+            <a
+              href="https://arcane-brook-48624.herokuapp.com/"
+              className="section-heading"
+            >
               IT Logger
             </a>
             <div className="bottom-line"></div>
@@ -40,7 +46,10 @@ export const Projects = () => {
           </div>
           <div className="project__block" style={{ gridArea: 'img3' }}>
             <img src={netflix} alt="Netflix Clone " className="project__img" />
-            <a href="google.com" className="section-heading">
+            <a
+              href="https://wonderful-brattain-7e3bb5.netlify.app/"
+              className="section-heading"
+            >
               Netflix UI Clone
             </a>
             <div className="bottom-line"></div>

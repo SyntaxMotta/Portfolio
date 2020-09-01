@@ -72,24 +72,26 @@
 .about__resumeBlock {
   padding: 0.3rem;
   margin: 0.2rem 0;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .about__resumeBlock > .section-heading {
   font-size: 1.95rem;
+  text-decoration: underline;
 }
 
 .about__resumeBlock > ul {
   margin-top: 0.6rem;
+  padding: 0.3rem;
 }
 
 .about__resumeBlock ul li,
 p {
   font-size: 1.3rem;
   line-height: 1.6rem;
+  text-align: left;
 }
