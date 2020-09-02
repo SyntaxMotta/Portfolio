@@ -43,26 +43,13 @@ export const Contact = () => {
                 <label for="icon_telephone">Telephone</label>
               </div>
             </div>
-            <p className="my-1">
-              <label>
-                <input name="group1" type="radio" checked />
-                <span className="flow-text">
-                  Business Development Opportunity
-                </span>
-              </label>
-            </p>
-            <p className="my-1">
-              <label>
-                <input name="group1" type="radio" />
-                <span className="flow-text">Web Development Opportunity</span>
-              </label>
-            </p>
+
             <div className="row">
               <div className="input-field col s12">
                 <textarea
                   className="contact__textarea"
                   placeholder="Project or Job Opportunity"
-                  name="project"
+                  name="message"
                 ></textarea>
               </div>
             </div>
