@@ -8,12 +8,8 @@ export const Contact = () => {
         <h1 className="page-title">Contact Me</h1>
         <div className="contact__content">
           <h2 className="section-heading">Please fill in your information</h2>
-          <form
-            method="POST"
-            data-netlify="true"
-            name="contact"
-            className="col s12"
-          >
+          <form method="post" name="contact" className="col s12">
+            <input type="hidden" name="form-name" value="contact" />
             <div className="row">
               <div className="input-field col s12">
                 <i className="material-icons prefix">account_circle</i>
