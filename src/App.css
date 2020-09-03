@@ -214,6 +214,9 @@
   .app__content {
     height: 750px;
   }
+  .about__resumeBlock > ul {
+    padding: 0;
+  }
 }
 
 /* @media (min-height: 2400px) {
