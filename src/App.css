@@ -64,7 +64,7 @@
   display: inline-block;
   width: 95%;
   padding: 1rem 0;
-  height: 875px;
+  height: 850px;
   overflow-y: scroll;
 }
 
@@ -174,10 +174,11 @@
     grid-template-columns: repeat(1fr);
   }
   .navbar__icon {
-    display: none;
+    width: 80%;
+    height: 275px;
   }
   .navbar__title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 2.5rem !important;
   }
 
@@ -204,6 +205,14 @@
   }
   .page-title {
     font-size: 1.9rem;
+  }
+
+  .app__nav {
+    height: 750px;
+  }
+
+  .app__content {
+    height: 750px;
   }
 }
 
