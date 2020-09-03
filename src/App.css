@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 :root {
   --primary-color: #0f2862;
   --secondary-color: #9e363a;
@@ -18,7 +26,7 @@
 
 .app {
   background-image: url('./images/backdrop.jpg'); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
+  background-color: #2e0030; /* Used if the image is unavailable */
   height: 100vh; /* You must set a specified height */
   width: 100%;
   background-position: center; /* Center the image */
