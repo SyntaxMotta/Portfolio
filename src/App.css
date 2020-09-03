@@ -179,7 +179,7 @@
   }
   .navbar__title {
     font-size: 1.7rem;
-    margin-top: 2.5rem !important;
+    margin-top: 1.8rem !important;
   }
 
   .navbar__iconBlock > a > .flow-text {
@@ -216,7 +216,7 @@
   }
 }
 
-@media (min-height: 2400px) {
+/* @media (min-height: 2400px) {
   .app__nav {
     height: 800px;
   }
@@ -224,4 +224,4 @@
   .app__content {
     height: 800px;
   }
-}
+} */
