@@ -17,6 +17,7 @@ body {
   --secondary-color: #9e363a;
   --tertiary-color: #091f36;
   --quaternary-color: #4f5f76;
+  height: 100%;
 }
 
 .my-1 {
@@ -27,7 +28,7 @@ body {
 .app {
   background-image: url('./images/backdrop.jpg'); /* The image used */
   background-color: #2e0030; /* Used if the image is unavailable */
-  height: 100vh; /* You must set a specified height */
+  height: 100%;
   width: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
