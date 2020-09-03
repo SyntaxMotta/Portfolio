@@ -185,6 +185,14 @@
     font-size: 1.5rem;
     margin-top: 0.3rem;
   }
+
+  .app__nav {
+    height: 800px;
+  }
+
+  .app__content {
+    height: 800px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -193,6 +201,9 @@
   }
   .sub-heading {
     font-size: 1.2rem;
+  }
+  .page-title {
+    font-size: 1.9rem;
   }
 }
 
