@@ -223,6 +223,7 @@
 
   .navbar__icon {
     height: 110px !important;
+    padding: 0.2rem 0;
   }
 }
 
