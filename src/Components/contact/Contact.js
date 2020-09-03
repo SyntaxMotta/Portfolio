@@ -18,7 +18,7 @@ export const Contact = () => {
               </div>
             </div>
             <div className="row">
-              <div className="input-field col s6">
+              <div className="input-field col s12 m6">
                 <i className="material-icons prefix">email</i>
                 <input
                   id="email"
@@ -28,7 +28,7 @@ export const Contact = () => {
                 />
                 <label for="email">Email</label>
               </div>
-              <div className="input-field col s6">
+              <div className="input-field col s12 m6">
                 <i className="material-icons prefix">phone</i>
                 <input
                   id="icon_telephone"
