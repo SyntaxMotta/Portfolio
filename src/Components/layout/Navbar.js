@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <Fragment>
       <img src={profile} alt="Icon" className="responsive-img navbar__icon" />
-      <p className="flow-text" style={{ margin: '1.3rem auto' }}>
+      <p className="flow-text navbar__title" style={{ margin: '1.3rem auto' }}>
         Michaelangelo
       </p>
       <div className="navbar__iconBlock">
