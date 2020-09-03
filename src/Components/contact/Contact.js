@@ -14,7 +14,7 @@ export const Contact = () => {
               <div className="input-field col s12">
                 <i className="material-icons prefix">account_circle</i>
                 <input id="name" type="text" name="name" className="validate" />
-                <label for="name">Name</label>
+                <label htmlFor="name">Name</label>
               </div>
             </div>
             <div className="row">
@@ -26,7 +26,7 @@ export const Contact = () => {
                   name="email"
                   className="validate"
                 />
-                <label for="email">Email</label>
+                <label htmlFor="email">Email</label>
               </div>
               <div className="input-field col s12 m6">
                 <i className="material-icons prefix">phone</i>
@@ -36,7 +36,7 @@ export const Contact = () => {
                   name="phone"
                   className="validate"
                 />
-                <label for="icon_telephone">Telephone</label>
+                <label htmlFor="icon_telephone">Telephone</label>
               </div>
             </div>
 

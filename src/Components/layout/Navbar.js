@@ -20,12 +20,12 @@ export const Navbar = () => {
         </a>
 
         <a href="tel:3015201800" className="navbar__link">
-          <i class="fas fa-phone-square fa-2x"></i>
+          <i className="fas fa-phone-square fa-2x"></i>
           <span className="flow-text">Phone</span>
         </a>
 
         <a href="mailto: michaelangelomotta@gmail.com" className="navbar__link">
-          <i class="fas fa-envelope fa-2x"></i>
+          <i className="fas fa-envelope fa-2x"></i>
           <span className="flow-text">Email</span>
         </a>
       </div>

@@ -188,17 +188,17 @@
   }
 
   .app__nav {
-    height: 800px;
+    height: 775px;
   }
 
   .app__content {
-    height: 800px;
+    height: 775px;
   }
 }
 
 @media (max-width: 480px) {
   .section-heading {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   .sub-heading {
     font-size: 1.2rem;
