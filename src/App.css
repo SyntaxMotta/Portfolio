@@ -208,14 +208,21 @@
   }
 
   .app__nav {
-    height: 750px;
+    height: 700px;
   }
 
   .app__content {
-    height: 750px;
+    height: 700px;
   }
   .about__resumeBlock > ul {
     padding: 0;
+  }
+  .nav li a {
+    font-size: 1.5rem;
+  }
+
+  .navbar__icon {
+    height: 110px !important;
   }
 }
 
