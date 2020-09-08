@@ -9,14 +9,15 @@
   --secondary-color: #9e363a;
   --tertiary-color: #091f36;
   --quaternary-color: #4f5f76;
-  height: 100%;
+  /* height: 100%; */
 }
+
 body {
-  height: 100%;
+  /* height: 100vh; */
 }
 
 #root {
-  height: 100%;
+  /* height: 100%; */
 }
 
 .my-1 {
@@ -28,7 +29,7 @@ body {
   background-image: url('./images/backdrop.jpg'); /* The image used */
   background-color: #2e0030; /* Used if the image is unavailable */
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
