@@ -169,6 +169,10 @@ body {
   .about__block {
     flex-direction: column-reverse;
   }
+
+  .app__content {
+    height: 800px;
+  }
 }
 
 @media (max-width: 665px) {
