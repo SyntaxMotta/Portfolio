@@ -116,7 +116,7 @@ export const About = () => {
 
             <p className="sub-heading">Sales Representative</p>
             <p>(2018 - 2019)</p>
-            <ul>
+            <ul style={{ listStyleType: 'circle' }}>
               <li>
                 Selling products and services using solid arguments to customers
               </li>

@@ -204,6 +204,11 @@ body {
   .app__content {
     height: 775px;
   }
+
+  .about__resumeBlock ul li,
+  p {
+    margin-top: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
