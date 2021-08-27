@@ -79,3 +79,23 @@
   margin-right: 0.7rem;
   margin-left: 0.3rem;
 }
+
+@media (max-height: 850px) {
+  .nav li a {
+    font-size: 1.5rem;
+  }
+
+  .navbar__icon {
+    margin: 0.4rem 0;
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 200px;
+  }
+  .app__nav {
+    height: 700px;
+  }
+
+  .app__content {
+    height: 700px;
+  }
+}
