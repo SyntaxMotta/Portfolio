@@ -207,7 +207,7 @@ body {
   }
 
   .app__content {
-    height: 775px;
+    height: 100%;
   }
 
   .about__resumeBlock ul li,
