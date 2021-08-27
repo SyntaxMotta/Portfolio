@@ -5,16 +5,16 @@
 .project__content {
   display: grid;
   grid-template-areas:
-    'img1 img2'
-    'img3 img3';
+    "img1 img2"
+    "img3 img3";
   grid-gap: 0.2rem;
   padding: 0.3rem;
 }
 
 .project__block {
-  padding: 0.5rem;
+  padding: 0.4rem;
   display: inline-block;
-  margin: 0.7rem auto;
+  margin: 0.6rem auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 }
 
 .project__block > .section-heading {
-  margin: 0.3rem 0;
+  margin: 0.1rem 0;
 }
 
 .project__block > .flow-text {
@@ -51,8 +51,27 @@
 @media (max-width: 665px) {
   .project__content {
     grid-template-areas:
-      'img1 img1'
-      'img2 img2'
-      'img3 img3';
+      "img1 img1"
+      "img2 img2"
+      "img3 img3";
+  }
+}
+
+@media (max-height: 850px) {
+  .project__img {
+    width: 100%;
+    height: 165px;
+  }
+  .project__block > .section-heading {
+    font-size: 1.5rem;
+  }
+  .project__block > .flow-text {
+    font-size: 1rem;
+  }
+  .project__block {
+    padding: 0.3rem;
+    display: inline-block;
+    margin: 0.4rem auto;
+    width: 100%;
   }
 }

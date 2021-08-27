@@ -44,7 +44,7 @@ export const Contact = () => {
               <div className="input-field col s12">
                 <textarea
                   className="contact__textarea"
-                  placeholder="Project or Job Opportunity"
+                  placeholder="Project, Job Opportunity, or just saying hello! "
                   name="message"
                 ></textarea>
               </div>
