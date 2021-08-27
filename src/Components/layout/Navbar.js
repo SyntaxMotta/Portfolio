@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import profile from '../../images/headshot.jfif';
+import profile from '../../images/iconFinal.jpg';
 
 export const Navbar = () => {
   return (

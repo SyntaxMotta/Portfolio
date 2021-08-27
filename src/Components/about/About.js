@@ -74,6 +74,20 @@ export const About = () => {
           <div className="bottom-line"></div>
           <div className="about__resumeBlock">
             <h2 className="section-heading">
+              OneClickPolitics, Washington, DC
+            </h2>
+
+            <p className="sub-heading">Business Development Representative</p>
+            <p>(October 2020 - Present)</p>
+            <ul>
+            <li>Prospect for high quality leads using Salesforce CRM</li>
+              <li>Create high revenue generating opportunities</li>
+              <li>Fill sales pipeline</li>
+              <li>Training and mentorship</li>
+            </ul>
+          </div>
+          <div className="about__resumeBlock">
+            <h2 className="section-heading">
               Motta&Motta Real Estate, Glen Burnie, MD
             </h2>
 
@@ -96,7 +110,7 @@ export const About = () => {
           </div>
           <div className="about__resumeBlock">
             <h2 className="section-heading">
-              MemoryBlue/User1st, Tysons Virginia
+              MemoryBlue/User1st, Tysons VA
             </h2>
 
             <p className="sub-heading">Business Development Representative</p>
