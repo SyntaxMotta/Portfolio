@@ -10,7 +10,7 @@ export const Home = () => {
           <h1 className="section-heading">My name is Michaelangelo Motta</h1>
           <div className="divider"></div>
           <h2 className="section-heading" style={{ margin: '1rem' }}>
-            I am a Front End React Developer and a proven Business Development
+            Front End React Developer and a proven Business Development
             Representative
           </h2>
           <h2>

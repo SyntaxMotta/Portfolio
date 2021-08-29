@@ -15,10 +15,8 @@ export const About = () => {
               <h1 className="section-heading">Business Development</h1>
               <div className="bottom-line"></div>
               <p className="flow-text">
-                I have 2 years of business development experience with various
-                high tech companies with different capabilities. My primary
-                client was a Website Accessibility company based in DC named
-                User1st.
+                I have 3 years of business development experience with various
+                high tech companies with different capabilities. Through targeted prospecting and persistent outreach, I have filled pipelines with revenue generating opportunities.
               </p>
             </div>
             <img src={sales} alt="Sales gong" className="about__image" />
@@ -35,8 +33,8 @@ export const About = () => {
               <div className="bottom-line"></div>
               <p className="flow-text">
                 Even before working in tech sales I learned about web
-                development fundementals in college. building a network of Front
-                End/UI developers at User1st peaked my interest in turning my
+                development fundamentals in college. building a network of Front
+                End/UI developers for a web accessibility client peaked my interest in turning my
                 hobby into a career.
               </p>
             </div>
