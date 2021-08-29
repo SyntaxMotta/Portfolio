@@ -170,6 +170,9 @@ body {
   .about__block {
     flex-direction: column-reverse;
   }
+  .about__block .about__image {
+    width: 225px !important;
+  }
 
   .app__content {
     height: 800px;
@@ -244,6 +247,10 @@ body {
   .navbar__icon {
     height: 110px !important;
     padding: 0.2rem 0;
+  }
+  .navbar__title {
+    font-size: 1.5rem;
+    margin-top: 1.8rem !important;
   }
 }
 
