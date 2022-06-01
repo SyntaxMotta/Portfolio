@@ -34,7 +34,7 @@ export const About = () => {
               <p className="flow-text">
                 Even before working in tech sales I learned about web
                 development fundamentals in college. building a network of Front
-                End/UI developers for a web accessibility client peaked my interest in turning my
+                End/UI developers for a web accessibility client piqued my interest in turning my
                 hobby into a career.
               </p>
             </div>
@@ -78,10 +78,13 @@ export const About = () => {
             <p className="sub-heading">Business Development Representative</p>
             <p>(October 2020 - Present)</p>
             <ul>
-            <li>Prospect for high quality leads using Salesforce CRM</li>
-              <li>Create high revenue generating opportunities</li>
-              <li>Fill sales pipeline</li>
-              <li>Training and mentorship</li>
+            <li>Generate leads via outbound campaigns</li>
+              <li>Build successful pipeline for account executive using effective prospecting, cold-calling, email outreach and social media outreach</li>
+              <li>Train and mentor new business development representatives</li>
+              <li>Build and run custom email campaigns and cold-calling scripts to ensure success</li>
+              <li>Chosen by the CEO to attend and represent the company at conferences and networking
+events</li>
+              <li>Build out prospecting lists within assigned territory</li>
             </ul>
           </div>
           <div className="about__resumeBlock">
@@ -93,17 +96,15 @@ export const About = () => {
             <p>(2016 - Present)</p>
             <ul>
               <li>
-                Building and retaining a strong client base with Buildium CRM
+                Build and retained a strong client base within Buildium CRM
               </li>
               <li>
                 Collaberating with contractors and landlords to keep properties
                 up to standards
               </li>
               <li>
-                Meet prospective renters at properties and give walkthroughs and
-                showcase details on the homes
+                Meet prospective renters at properties and give walkthroughs and provide information on properties
               </li>
-              <li>Organize and file corresponding paperwork</li>
             </ul>
           </div>
           <div className="about__resumeBlock">
@@ -114,10 +115,10 @@ export const About = () => {
             <p className="sub-heading">Business Development Representative</p>
             <p>(March 2019 - May 2020)</p>
             <ul>
-              <li>Prospect for high quality leads using Salesforce CRM</li>
-              <li>Create high revenue generating opportunities</li>
-              <li>Fill sales pipeline</li>
-              <li>Training and mentorship</li>
+              <li>Generate leads via outbound campaigns</li>
+              <li>Work with a variety of tech companies to create revenue generating opportunities</li>
+              <li>Built a successful pipeline for account executive by using effective prospecting, cold calling, email outreach and social media outreach</li>
+              <li>Trained and mentored new business development representatives</li>
             </ul>
           </div>
 
