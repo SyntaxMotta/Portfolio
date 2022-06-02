@@ -62,7 +62,7 @@ body {
   justify-content: center;
   width: 100%;
   padding: 0 0;
-  height: 100%;
+  height: 98%;
   max-width: 600px;
 }
 
@@ -75,7 +75,8 @@ body {
   display: inline-block;
   width: 95%;
   padding: 1rem 0;
-  height: 850px;
+  height: 98%;
+  max-height: 650px;
   overflow-y: scroll;
 }
 
@@ -181,7 +182,7 @@ body {
   }
 
   .app__content {
-    height: 800px;
+    height: 100%;
   }
 }
 
@@ -216,7 +217,7 @@ body {
   }
 
   .app__nav {
-    height: 775px;
+    height: 100%;
   }
 
   .app__content {
@@ -241,16 +242,16 @@ body {
     font-size: 1.9rem;
   }
 
-  .app__nav {
+  /* .app__nav {
     height: 700px;
   }
 
   .app__content {
     height: 700px;
-  }
+  } */
 
   .home__workBtn {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 
   .about__resumeBlock > ul {
