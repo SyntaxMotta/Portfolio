@@ -243,15 +243,23 @@ body {
   .app__content {
     height: 700px;
   }
+
+  .home__workBtn {
+    font-size: 1rem;
+  }
+
   .about__resumeBlock > ul {
     padding: 0.3rem 0 !important;
+  }
+  .nav {
+    height: 45% !important;
   }
   .nav li a {
     font-size: 1.5rem;
   }
 
   .navbar__icon {
-    height: 110px !important;
+    height: 100% !important;
     padding: 0.2rem 0;
   }
   .navbar__title {
