@@ -164,7 +164,13 @@ body {
     margin-top: 0.5rem !important;
   }
   .navbar__iconBlock {
-    margin-top: 0.3rem;
+    margin-top: 2.5rem;
+    flex-direction: row !important;
+
+  }
+
+  a > .flow-text {
+    display: none;
   }
 
   .about__block {
