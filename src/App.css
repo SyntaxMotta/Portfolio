@@ -194,6 +194,10 @@ body {
     font-size: 1.2rem;
   }
 
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .project__content {
     grid-template-columns: repeat(1fr);
   }
@@ -218,6 +222,7 @@ body {
   .app__content {
     height: 100%;
   }
+
 
   .about__resumeBlock ul li,
   p {
