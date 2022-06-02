@@ -201,10 +201,10 @@ body {
     width: 80%;
     height: 275px;
   }
-  .navbar__title {
+  /* .navbar__title {
     font-size: 1.7rem;
     margin-top: 1.8rem !important;
-  }
+  } */
 
   .navbar__iconBlock > a > .flow-text {
     font-size: 1.5rem;
