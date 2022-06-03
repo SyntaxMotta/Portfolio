@@ -90,8 +90,13 @@
 }
 
 .about__resumeBlock > ul {
-  margin-top: 0.6rem;
+  margin-top: 0.6rem 0 0 0;
   padding: 0.3rem;
+  list-style-type: none;
+}
+
+.about__resumeBlock ul li {
+  margin: .75rem 0;
 }
 
 .about__resumeBlock ul li,
@@ -99,4 +104,10 @@ p {
   font-size: 1.3rem;
   line-height: 1.6rem;
   text-align: center;
+  text-indent: -5px;
+}
+
+.about__resumeBlock ul li:before {
+  content: "-";
+  text-indent: -5px;
 }
